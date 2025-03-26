@@ -3,11 +3,11 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <div className="w-full p-8 rounded-3xl">
+      <div className="w-full p-8 md:p-14 rounded-3xl bg-gray-50">
         <h1 className="text-5xl md:text-8xl font-semibold text-center mb-4">
           ICONIC
         </h1>
-        <h4 className="text-base md:text-xl font-normal text-center max-w-4xl mx-auto">
+        <h4 className="text-base md:text-xl font-normal text-center max-w-5xl mx-auto">
           Kenali lebih dalam Capstone Design Competition 2025 – dari panduan
           inovasi dan alat bantu hingga komponen desain yang dapat digunakan
           kembali serta implementasi proyek berbasis teknologi dan rekayasa.

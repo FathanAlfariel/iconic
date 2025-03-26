@@ -79,7 +79,7 @@ const Layout = () => {
       {/* Sidebar for Tablet and Desktop View */}
       <div className="flex items-start h-screen">
         <aside className="h-full">
-          <ul className="hidden md:block w-full flex flex-col items-center bg-[#f2ecee] px-2 h-full">
+          <ul className="hidden md:block w-full flex flex-col items-center bg-gray-50 px-2 h-full">
             {navigationList?.map((data, key) => {
               return (
                 <li
