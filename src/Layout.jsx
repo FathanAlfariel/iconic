@@ -96,9 +96,7 @@ const Layout = () => {
                         {/* Icon */}
                         <span
                           className={`block py-1 px-5 rounded-full ${
-                            isActive
-                              ? "bg-slate-300"
-                              : "group-hover:bg-gray-200"
+                            isActive ? "bg-lime-100" : "group-hover:bg-gray-200"
                           }`}
                         >
                           <svg
