@@ -38,13 +38,13 @@ const Layout = () => {
   return (
     <>
       {/* Bottom Navigation Bar for Mobile View */}
-      <BottomNavBar navigationList={navigationList} />
+      {/* <BottomNavBar navigationList={navigationList} /> */}
 
       <div className="flex items-start h-screen">
         {/* Sidebar for Tablet and Desktop View */}
         <Sidebar navigationList={navigationList} />
 
-        <main className="p-2 md:p-3 w-full">
+        <main className="p-2 md:p-3 w-full h-full overflow-y-auto">
           <Outlet />
         </main>
       </div>
