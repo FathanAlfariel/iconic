@@ -35,14 +35,17 @@ const HomeNavigation = () => {
           </Link>
 
           {/* Format and Guidelines */}
-          <button className="w-full h-full flex flex-col gap-y-2 p-6 transition duration-200 bg-lime-300 hover:bg-lime-400 rounded-4xl hover:rounded-3xl hover:shadow-md active:bg-lime-400 active:scale-95 cursor-pointer">
+          <Link
+            to={"/guidelines"}
+            className="w-full h-full flex flex-col gap-y-2 p-6 transition duration-200 bg-lime-300 hover:bg-lime-400 rounded-4xl hover:rounded-3xl hover:shadow-md active:bg-lime-400 active:scale-95 cursor-pointer"
+          >
             <h4 className="text-left text-2xl text-[#1c1b1d] font-medium">
               Format and Guidelines
             </h4>
             <p className="text-left text-[#1c1b1d] text-base">
               Panduan lengkap untuk pendaftaran dan pengumpulan proposal
             </p>
-          </button>
+          </Link>
         </div>
       </div>
     </>
