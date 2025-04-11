@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  bash: process.env.VITE_BASH_PATH || "/iconic",
+  bash: process.env.VITE_BASH_PATH || "/",
 });
