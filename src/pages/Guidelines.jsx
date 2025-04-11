@@ -19,6 +19,8 @@ const Guidelines = () => {
 
   return (
     <>
+      <title>ICONIC - Format and Guidelines</title>
+
       <div className="grid grid-cols-12 items-start max-w-7xl mx-auto">
         <div className="col-span-12 md:col-span-9 px-6">
           {/* Abstract Format */}

@@ -31,6 +31,8 @@ const Home = () => {
 
   return (
     <>
+      <title>ICONIC - Home</title>
+
       <div className="grid grid-cols-12 items-start max-w-7xl mx-auto">
         <div className="col-span-12 md:col-span-9 px-6">
           {/* What's ICONIC */}

@@ -1,6 +1,5 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import HomeNavigation from "./components/HomeNavigation";
 import NavigationBar from "./components/NavigationBar";
 
 const Layout = () => {
@@ -24,7 +23,7 @@ const Layout = () => {
           </div>
 
           <div className="col-span-12 md:col-span-6 lg:col-span-4">
-            {/* <HomeNavigation /> */}
+            {/* FT LOGO */}
             <div className="w-full min-h-80 h-80 lg:min-h-80 md:min-h-full md:h-full lg:h-[542px]">
               <img
                 src="logo_ft.png"
