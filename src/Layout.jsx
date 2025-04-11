@@ -9,24 +9,23 @@ const Layout = () => {
       <main className="p-2 md:p-3 w-full h-full">
         {/* Head Content */}
         <div className="grid grid-cols-12 gap-2 md:gap-3">
-          <div className="col-span-12 md:col-span-8 h-full">
+          <div className="col-span-12 md:col-span-6 lg:col-span-8 h-full">
             <div className="h-full flex flex-col justify-center items-start w-full p-8 md:p-14 rounded-4xl bg-gray-50">
-              <h1 className="text-6xl md:text-8xl font-semibold text-start mb-6">
+              <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold text-start mb-7">
                 ICONIC
               </h1>
 
-              <h4 className="text-base md:text-2xl font-normal text-start">
-                Kenali lebih dalam Capstone Design Competition 2025 – dari
-                panduan inovasi dan alat bantu hingga komponen desain yang dapat
-                digunakan kembali serta implementasi proyek berbasis teknologi
-                dan rekayasa.
+              <h4 className="text-base mg:text-lg lg:text-2xl font-normal text-start">
+                Get to know the Capstone Design Competition 2025 in depth – from
+                innovation guides and tools to reusable design components and
+                the implementation of technology and engineering-based projects.
               </h4>
             </div>
           </div>
 
-          <div className="col-span-12 md:col-span-4">
+          <div className="col-span-12 md:col-span-6 lg:col-span-4">
             {/* <HomeNavigation /> */}
-            <div className="w-full h-[542px]">
+            <div className="w-full min-h-80 h-80 lg:min-h-80 md:min-h-full md:h-full lg:h-[542px]">
               <img
                 src="logo_ft.png"
                 alt="ft_logo"
