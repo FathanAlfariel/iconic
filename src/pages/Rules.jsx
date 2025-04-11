@@ -3,7 +3,7 @@ import React from "react";
 const Rules = () => {
   return (
     <>
-      <ul className="max-w-7xl mx-auto mt-1">
+      <ul className="max-w-7xl mx-auto mt-8">
         {/* Eligibility */}
         <li className="p-6 hover:bg-gray-100 rounded-4xl">
           <h5 className="text-lg font-medium">Eligibility:</h5>
