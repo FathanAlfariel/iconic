@@ -205,7 +205,14 @@ const Guidelines = () => {
             <br />
             <span className="block text-[#1c1b1d] mt-1.5">
               All registration and document collection is done through{" "}
-              <span className="text-red-600">xxxxxx</span> platform
+              <a
+                target="_blank"
+                href="https://bit.um.ac.id/ICONIC2025-FT60"
+                className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+              >
+                Google Drive
+              </a>{" "}
+              platform
             </span>
           </div>
 
@@ -222,8 +229,15 @@ const Guidelines = () => {
                   No. 5, Malang 65154, East Java, Indonesia
                 </p>
               </li>
-              <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📞']">
-                <p className="ml-6 text-xs">Pak Hanif (082245461308)</p>
+              <li className="relative before:absolute before:left-0 before:top-0 before:content-['📞']">
+                <ol className="flex flex-col gap-y-0.5 list-inside list-decimal">
+                  <li className="ml-6 text-xs">
+                    Hanif Rifai Adha, S.Pd., M.T. (+62 822-4546-1308)
+                  </li>
+                  <li className="ml-6 text-xs">
+                    Naomi Vadka Rezkia (+62 821-4501-2230)
+                  </li>
+                </ol>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['🌐']">
                 <p className="ml-6 text-xs">

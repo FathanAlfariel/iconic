@@ -23,7 +23,7 @@ const Heading_Img = () => {
         {/* HEADING IMAGE */}
         <div className="w-full min-h-52 h-52 lg:min-h-80 md:min-h-full md:h-full lg:h-[400px]">
           <img
-            src="HEADING.png"
+            src="HEADING_2.png"
             alt="heading_image"
             className="w-full h-full object-cover rounded-4xl"
           />
@@ -53,7 +53,7 @@ const Heading_Img = () => {
         <div className="fixed top-0 left-0 flex justify-center items-center w-screen h-screen z-50 bg-black/[.5]">
           <div className="h-auto max-w-7xl">
             <img
-              src="HEADING.png"
+              src="HEADING_2.png"
               alt="heading_image"
               className="w-full h-full object-cover"
             />
