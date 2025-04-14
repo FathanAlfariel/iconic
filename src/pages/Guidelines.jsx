@@ -245,7 +245,7 @@ const Guidelines = () => {
                     href="https://iconic-topaz.vercel.app/"
                     className="font-semibold text-blue-500 hover:text-blue-700 hover:underline"
                   >
-                    ICONIC
+                    ICONIC Website
                   </a>
                 </p>
               </li>
