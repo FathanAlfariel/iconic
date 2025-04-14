@@ -40,45 +40,44 @@ const Home = () => {
             <h2 className="text-4xl font-medium">What is ICONIC?</h2>
             <p className="mt-4 text-base">
               <span>
-                Capstone Design Competition 2025 adalah bagian dari rangkaian
-                kegiatan TOR ICONIC (International Competition & Exhibition of
-                Innovation & Creativity) yang bertujuan untuk mengembangkan
-                inovasi mahasiswa dalam bidang teknologi, rekayasa, dan desain
-                produk.
+                Capstone Design Competition 2025 is part of a series of TOR
+                ICONIC (International Competition & Exhibition of Innovation &
+                Creativity) activities that aim to develop student innovation in
+                technology, engineering, and product design.
               </span>
               <br />
               <br />
               <span>
-                Kompetisi ini menjadi wadah bagi mahasiswa untuk
-                mempresentasikan hasil proyek Capstone mereka yang berorientasi
-                pada inovasi dan implementasi nyata.
+                This competition is a platform for students to present the
+                results of their Capstone projects that are oriented towards
+                innovation and real implementation.
               </span>
             </p>
           </div>
 
-          {/* Tema Kompetisi */}
+          {/* Competition Theme */}
           <div ref={temaKompetisiElement} id="tema-kompetisi" className="mt-14">
-            <h2 className="text-4xl font-medium">Tema Kompetisi</h2>
+            <h2 className="text-4xl font-medium">Competition Theme</h2>
             <p className="mt-4 text-base">
               <span className="font-semibold text-lg">
                 Innovative Technology for Sustainable Development
               </span>
               <br />
               <span className="block mt-1">
-                Kompetisi ini menjadi wadah bagi mahasiswa untuk
-                mempresentasikan hasil proyek Capstone mereka yang berorientasi
-                pada inovasi dan implementasi nyata.
+                This competition is a platform for students to present the
+                results of their Capstone projects that are oriented towards
+                innovation and real implementation.
               </span>
             </p>
           </div>
 
-          {/* Kategori Kompetisi */}
+          {/* Competition Category */}
           <div
             ref={kategoriKompetisiElement}
             id="kategori-kompetisi"
             className="mt-14"
           >
-            <h2 className="text-4xl font-medium">Kategori Kompetisi</h2>
+            <h2 className="text-4xl font-medium">Competition Category</h2>
             <ol className="list-decimal mt-4 text-base ml-4">
               <li>
                 Construction & Materials / Built Environment & Interior Design
@@ -93,61 +92,61 @@ const Home = () => {
             </ol>
           </div>
 
-          {/* Jadwal Kompetisi */}
+          {/* Important Schedule */}
           <div ref={jadwalPentingElement} id="jadwal-penting" className="mt-14">
-            <h2 className="text-4xl font-medium">Jadwal Penting</h2>
+            <h2 className="text-4xl font-medium">Important Schedule</h2>
             <ul className="list-disc mt-4 text-base ml-4">
               <li>
                 <div className="grid grid-cols-12">
                   <div className="col-span-5">
-                    Batas Akhir Pendaftaran & Pengumpulan Proposal
+                    Deadline for Registration & Proposal Submission
                   </div>
-                  <div className="col-span-7">: 30 Mei 2025</div>
+                  <div className="col-span-7">: May 30, 2025</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
                   <div className="col-span-5">
-                    Batas Akhir Pengumpulan Proyek Final
+                    Final Project Submission Deadline
                   </div>
-                  <div className="col-span-7">: 30 Juni 2025</div>
+                  <div className="col-span-7">: June 30, 2025</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Pengumuman Finalis</div>
-                  <div className="col-span-7">: 17 Agustus 2025</div>
+                  <div className="col-span-5">Finalist Announcement</div>
+                  <div className="col-span-7">: August 17, 2025</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Presentasi & Penjurian</div>
-                  <div className="col-span-7">: 9 September 2025</div>
+                  <div className="col-span-5">Presentation & Judging</div>
+                  <div className="col-span-7">: September 9, 2025</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Pengumuman Pemenang</div>
+                  <div className="col-span-5">Winner Announcement</div>
                   <div className="col-span-7 text-red-600 font-medium">
-                    : 12 September 2025
+                    : September 12, 2025
                   </div>
                 </div>
               </li>
             </ul>
           </div>
 
-          {/* Biaya Pendaftaran */}
+          {/* Registration Fee */}
           <div
             ref={biayaPendaftaranElement}
             id="biaya-pendaftaran"
             className="mt-14"
           >
-            <h2 className="text-4xl font-medium">Biaya Pendaftaran</h2>
+            <h2 className="text-4xl font-medium">Registration Fee</h2>
             <ul className="mt-4 text-base">
               <li className="mb-1.5">
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Kategori</div>
-                  <div className="col-span-7">Biaya Pendaftaran</div>
+                  <div className="col-span-5">Category</div>
+                  <div className="col-span-7">Registration Fee</div>
                 </div>
               </li>
               <li>
@@ -155,57 +154,55 @@ const Home = () => {
               </li>
               <li className="mt-1.5">
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Mahasiswa Nasional</div>
+                  <div className="col-span-5">National Student</div>
                   <div className="col-span-7 font-medium">FREE</div>
                 </div>
               </li>
               <li className="mt-1.5">
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Mahasiswa Internasional</div>
+                  <div className="col-span-5">International Students</div>
                   <div className="col-span-7 font-medium">FREE</div>
                 </div>
               </li>
             </ul>
           </div>
 
-          {/* Jadwal Kompetisi */}
+          {/* Prizes and Awards */}
           <div
             ref={hadiahPenghargaanElement}
             id="hadiah-penghargaan"
             className="mt-14"
           >
-            <h2 className="text-4xl font-medium">Hadiah dan Penghargaan</h2>
+            <h2 className="text-4xl font-medium">Prizes and Awards</h2>
             <ul className="list-disc mt-4 text-base ml-4">
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-4">Juara 1</div>
-                  <div className="col-span-8">: Sertifikat</div>
+                  <div className="col-span-4">1st place</div>
+                  <div className="col-span-8">: Certificate</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-4">Juara 2</div>
-                  <div className="col-span-8">: Sertifikat</div>
+                  <div className="col-span-4">2nd place</div>
+                  <div className="col-span-8">: Certificate</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-4">Juara 3</div>
-                  <div className="col-span-8">: Sertifikat</div>
+                  <div className="col-span-4">3rd place</div>
+                  <div className="col-span-8">: Certificate</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-4">Penghargaan Inovasi Terbaik</div>
-                  <div className="col-span-8">: Sertifikat</div>
+                  <div className="col-span-4">Best Innovation Award</div>
+                  <div className="col-span-8">: Certificate</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-4">
-                    Penghargaan Presentasi Terbaik
-                  </div>
-                  <div className="col-span-8">: Sertifikat</div>
+                  <div className="col-span-4">Best Presentation Award</div>
+                  <div className="col-span-8">: Certificate</div>
                 </div>
               </li>
             </ul>
@@ -232,7 +229,7 @@ const Home = () => {
                 onClick={scrollToTemaKompetisi}
                 className="w-full py-2 px-4 text-left text-[#21182b] text-sm font-normal transition duration-200 hover:bg-gray-200 rounded-full cursor-pointer"
               >
-                Tema Kompetisi
+                Competition Theme
               </button>
             </li>
             <li>
@@ -240,7 +237,7 @@ const Home = () => {
                 onClick={scrollToKategoriKompetisi}
                 className="w-full py-2 px-4 text-left text-[#21182b] text-sm font-normal transition duration-200 hover:bg-gray-200 rounded-full cursor-pointer"
               >
-                Kategori Kompetisi
+                Competition Category
               </button>
             </li>
             <li>
@@ -248,7 +245,7 @@ const Home = () => {
                 onClick={scrollToJadwalPenting}
                 className="w-full py-2 px-4 text-left text-[#21182b] text-sm font-normal transition duration-200 hover:bg-gray-200 rounded-full cursor-pointer"
               >
-                Jadwal Penting
+                Important Schedule
               </button>
             </li>
             <li>
@@ -256,7 +253,7 @@ const Home = () => {
                 onClick={scrollToBiayaPendaftaran}
                 className="w-full py-2 px-4 text-left text-[#21182b] text-sm font-normal transition duration-200 hover:bg-gray-200 rounded-full cursor-pointer"
               >
-                Biaya Pendaftaran
+                Registration Fee
               </button>
             </li>
             <li>
@@ -264,7 +261,7 @@ const Home = () => {
                 onClick={scrollToHadiahPenghargaan}
                 className="w-full py-2 px-4 text-left text-[#21182b] text-sm font-normal transition duration-200 hover:bg-gray-200 rounded-full cursor-pointer"
               >
-                Hadiah dan Penghargaan
+                Prizes and Awards
               </button>
             </li>
           </ul>
@@ -278,15 +275,15 @@ const Home = () => {
             </span>
             <br />
             <span className="block text-[#1c1b1d] mt-1.5">
-              Semua pendaftaran dan pengumpulan dokumen dilakukan melalui
-              platform <span className="text-red-600">xxxxxx</span>
+              All registration and document collection is done through{" "}
+              <span className="text-red-600">xxxxxx</span> platform
             </span>
           </div>
 
-          {/* Kontak & Informasi Lebih Lanjut */}
+          {/* Contact & More Information */}
           <div className="mx-2 py-3 px-4 transition duration-200 hover:bg-gray-200 rounded-xl">
             <p className="text-left text-xs font-semibold text-[#4d4256]">
-              Kontak & Informasi Lebih Lanjut
+              Contact & More Information
             </p>
 
             <ul className="flex flex-col gap-y-1.5 list-none mt-2">
@@ -297,7 +294,7 @@ const Home = () => {
                 </p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📞']">
-                <p className="ml-6 text-xs">xxx (mahasiswa)</p>
+                <p className="ml-6 text-xs">xxx (student)</p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['🌐']">
                 <p className="ml-6 text-xs">xxx</p>

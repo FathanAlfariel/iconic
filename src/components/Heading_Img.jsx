@@ -32,6 +32,7 @@ const Heading_Img = () => {
         {/* Expand Button */}
         <div className="absolute bottom-3 right-3 z-50">
           <button
+            title="Full screen"
             onClick={() => setIsExpand(true)}
             className="cursor-pointer p-2.5 rounded-full transition duration-300 bg-gray-100/[.6] hover:bg-gray-100/[.75] active:scale-95"
           >
@@ -60,6 +61,7 @@ const Heading_Img = () => {
 
           <div className="absolute top-3 right-3 md:top-6 md:right-6">
             <button
+              title="Close"
               onClick={() => setIsExpand(false)}
               className="cursor-pointer p-2.5 rounded-full transition duration-300 bg-gray-100/[.6] hover:bg-gray-100/[.75] active:scale-95"
             >

@@ -204,15 +204,15 @@ const Guidelines = () => {
             </span>
             <br />
             <span className="block text-[#1c1b1d] mt-1.5">
-              Semua pendaftaran dan pengumpulan dokumen dilakukan melalui
-              platform <span className="text-red-600">xxxxxx</span>
+              All registration and document collection is done through{" "}
+              <span className="text-red-600">xxxxxx</span> platform
             </span>
           </div>
 
-          {/* Kontak & Informasi Lebih Lanjut */}
+          {/* Contact & More Information */}
           <div className="mx-2 py-3 px-4 transition duration-200 hover:bg-gray-200 rounded-xl">
             <p className="text-left text-xs font-semibold text-[#4d4256]">
-              Kontak & Informasi Lebih Lanjut
+              Contact & More Information
             </p>
 
             <ul className="flex flex-col gap-y-1.5 list-none mt-2">
@@ -223,7 +223,7 @@ const Guidelines = () => {
                 </p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📞']">
-                <p className="ml-6 text-xs">xxx (mahasiswa)</p>
+                <p className="ml-6 text-xs">xxx (student)</p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['🌐']">
                 <p className="ml-6 text-xs">xxx</p>
