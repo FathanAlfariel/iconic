@@ -227,7 +227,12 @@ const Guidelines = () => {
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['🌐']">
                 <p className="ml-6 text-xs">
-                  ICONIC (https://iconic-topaz.vercel.app/)
+                  <a
+                    href="https://iconic-topaz.vercel.app/"
+                    className="font-semibold text-blue-500 hover:text-blue-700 hover:underline"
+                  >
+                    ICONIC
+                  </a>
                 </p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📧']">
