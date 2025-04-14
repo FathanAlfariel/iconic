@@ -204,7 +204,7 @@ const Guidelines = () => {
             </span>
             <br />
             <span className="block text-[#1c1b1d] mt-1.5">
-              All registration and document collection is done through{" "}
+              All registration and document collection is done through
               <span className="text-red-600">xxxxxx</span> platform
             </span>
           </div>
@@ -223,10 +223,12 @@ const Guidelines = () => {
                 </p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📞']">
-                <p className="ml-6 text-xs">xxx (student)</p>
+                <p className="ml-6 text-xs">Pak Hanif (082245461308)</p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['🌐']">
-                <p className="ml-6 text-xs">xxx</p>
+                <p className="ml-6 text-xs">
+                  ICONIC (https://iconic-topaz.vercel.app/)
+                </p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📧']">
                 <p className="ml-6 text-xs">xxx</p>
