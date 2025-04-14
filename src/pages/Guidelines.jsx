@@ -204,7 +204,7 @@ const Guidelines = () => {
             </span>
             <br />
             <span className="block text-[#1c1b1d] mt-1.5">
-              All registration and document collection is done through
+              All registration and document collection is done through{" "}
               <span className="text-red-600">xxxxxx</span> platform
             </span>
           </div>
