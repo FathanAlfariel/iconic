@@ -50,7 +50,7 @@ const Heading_Img = () => {
 
       {/* Expand Content */}
       {isExpand && (
-        <div className="fixed top-0 left-0 flex justify-center items-center w-screen h-screen z-50 bg-black/[.5]">
+        <div className="fixed top-0 left-0 flex justify-center items-center w-screen h-screen z-999 bg-black/[.5]">
           <div className="h-auto max-w-7xl">
             <img
               src="HEADING_2.png"
