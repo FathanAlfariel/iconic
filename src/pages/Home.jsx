@@ -322,7 +322,7 @@ const Home = () => {
                 </p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📧']">
-                <p className="ml-6 text-xs">hanif.rifai.ft@um.ac.id</p>
+                <p className="ml-6 text-xs">ft@um.ac.id</p>
               </li>
             </ul>
           </div>

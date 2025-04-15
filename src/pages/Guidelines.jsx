@@ -250,7 +250,7 @@ const Guidelines = () => {
                 </p>
               </li>
               <li className="relative before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:content-['📧']">
-                <p className="ml-6 text-xs">xxx</p>
+                <p className="ml-6 text-xs">ft@um.ac.id</p>
               </li>
             </ul>
           </div>
