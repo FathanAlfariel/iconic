@@ -28,7 +28,8 @@ const Rules = () => {
             </li>
             <li className="ml-8">
               Projects can be presented individually or as a team with a maximum
-              of four (4) members, including the Team Leader/Supervisor.
+              of four (4) members, including the Team Leader/Supervisor, with
+              the Team Leader submitting only one project title.
             </li>
           </ul>
         </li>
