@@ -23,12 +23,12 @@ const Rules = () => {
 
           <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-2.5">
             <li className="ml-8">
-              Each team must consist of 2-5 students with one faculty advisor
+              Each team must consist of 2-4 students with one faculty advisor
               (supervisor).
             </li>
             <li className="ml-8">
               Projects can be presented individually or as a team with a maximum
-              of five (5) members, including the Group Leader/Supervisor.
+              of five (4) members, including the Group Leader/Supervisor.
             </li>
           </ul>
         </li>
