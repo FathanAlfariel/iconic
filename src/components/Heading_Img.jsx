@@ -23,8 +23,8 @@ const Heading_Img = () => {
         {/* HEADING IMAGE */}
         <div className="w-full min-h-52 h-52 lg:min-h-80 md:min-h-full md:h-full lg:h-[400px]">
           <img
-            src="HEADING_3.png"
-            alt="heading_image"
+            src="/POSTER_NEW.png"
+            alt="POSTER_NEW.png"
             className="w-full h-full object-cover rounded-4xl"
           />
         </div>
@@ -51,11 +51,11 @@ const Heading_Img = () => {
       {/* Expand Content */}
       {isExpand && (
         <div className="fixed top-0 left-0 flex justify-center items-center w-screen h-screen z-999 bg-black/[.5]">
-          <div className="h-auto max-w-7xl">
+          <div className="flex max-h-screen max-w-7xl">
             <img
-              src="HEADING_3.png"
-              alt="heading_image"
-              className="w-full h-full object-cover"
+              src="/POSTER_NEW.png"
+              alt="POSTER_NEW.png"
+              className="w-auto h-auto object-contain"
             />
           </div>
 

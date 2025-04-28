@@ -23,7 +23,7 @@ const Layout = () => {
             </div>
           </div>
 
-          <div className="hidden md:block col-span-12 md:col-span-6 lg:col-span-2">
+          <div className="hidden md:block col-span-12 md:col-span-6 lg:col-span-3">
             {/* FT LOGO */}
             <div className="w-full min-h-80 h-80 md:min-h-full md:h-full lg:min-h-[400px] lg:h-[400px]">
               <img
@@ -34,7 +34,7 @@ const Layout = () => {
             </div>
           </div>
 
-          <div className="col-span-12 md:col-span-12 lg:col-span-5">
+          <div className="col-span-12 md:col-span-12 lg:col-span-4">
             <Heading_Img />
           </div>
         </div>
