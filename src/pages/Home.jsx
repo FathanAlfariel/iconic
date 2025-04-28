@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import NavigationBar from "../components/NavigationBar";
 
 const Home = () => {
   // Ref untuk setiap section
@@ -35,8 +36,15 @@ const Home = () => {
 
       <div className="grid grid-cols-12 items-start max-w-7xl mx-auto">
         <div className="col-span-12 md:col-span-9 px-6">
+          {/* Navigation Bar - Hanya terlihat saat Head Content tidak terlihat */}
+          <div
+            className={`sticky top-0 left-0 max-w-7xl mx-auto z-50 py-2 mt-12 bg-white`}
+          >
+            <NavigationBar />
+          </div>
+
           {/* What's ICONIC */}
-          <div ref={whatIsIconicElement} id="what-is-iconic" className="mt-14">
+          <div ref={whatIsIconicElement} id="what-is-iconic" className="pt-24">
             <h2 className="text-4xl font-medium">What is ICONIC?</h2>
             <p className="mt-4 text-base">
               <span>
@@ -56,7 +64,7 @@ const Home = () => {
           </div>
 
           {/* Competition Theme */}
-          <div ref={temaKompetisiElement} id="tema-kompetisi" className="mt-14">
+          <div ref={temaKompetisiElement} id="tema-kompetisi" className="pt-24">
             <h2 className="text-4xl font-medium">Competition Theme</h2>
             <p className="mt-4 text-base">
               <span className="font-semibold text-lg">
@@ -75,7 +83,7 @@ const Home = () => {
           <div
             ref={kategoriKompetisiElement}
             id="kategori-kompetisi"
-            className="mt-14"
+            className="pt-24"
           >
             <h2 className="text-4xl font-medium">Competition Category</h2>
             <ol className="list-decimal mt-4 text-base ml-4">
@@ -93,7 +101,7 @@ const Home = () => {
           </div>
 
           {/* Important Schedule */}
-          <div ref={jadwalPentingElement} id="jadwal-penting" className="mt-14">
+          <div ref={jadwalPentingElement} id="jadwal-penting" className="pt-24">
             <h2 className="text-4xl font-medium">Important Schedule</h2>
             <ul className="list-disc mt-4 text-base ml-4">
               <li>
@@ -139,7 +147,7 @@ const Home = () => {
           <div
             ref={biayaPendaftaranElement}
             id="biaya-pendaftaran"
-            className="mt-14"
+            className="pt-24"
           >
             <h2 className="text-4xl font-medium">Registration Fee</h2>
             <ul className="mt-4 text-base">
@@ -171,7 +179,7 @@ const Home = () => {
           <div
             ref={hadiahPenghargaanElement}
             id="hadiah-penghargaan"
-            className="mt-14"
+            className="pt-24"
           >
             <h2 className="text-4xl font-medium">Prizes and Awards</h2>
             <ul className="list-disc mt-4 text-base ml-4">
@@ -209,7 +217,7 @@ const Home = () => {
           </div>
         </div>
 
-        <aside className="md:sticky md:top-28 order-first md:order-last col-span-12 md:col-span-3 mt-14">
+        <aside className="md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14">
           <p className="text-left text-xs font-semibold text-[#4d4256] mb-2 px-6">
             On this page
           </p>

@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import NavigationBar from "../components/NavigationBar";
 
 const Guidelines = () => {
   // Ref untuk setiap section
@@ -23,8 +24,15 @@ const Guidelines = () => {
 
       <div className="grid grid-cols-12 items-start max-w-7xl mx-auto">
         <div className="col-span-12 md:col-span-9 px-6">
+          {/* Navigation Bar - Hanya terlihat saat Head Content tidak terlihat */}
+          <div
+            className={`sticky top-0 left-0 max-w-7xl mx-auto z-50 py-2 mt-12 bg-white`}
+          >
+            <NavigationBar />
+          </div>
+
           {/* Abstract Format */}
-          <div ref={abstractFormat} className="mt-14">
+          <div ref={abstractFormat} className="pt-24">
             <h2 className="text-4xl font-medium">Abstract Format</h2>
             <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-7">
               <li className="ml-8">
@@ -72,7 +80,7 @@ const Guidelines = () => {
           </div>
 
           {/* Innovation Poster Format */}
-          <div ref={innovationPosterFormat} className="mt-14">
+          <div ref={innovationPosterFormat} className="pt-24">
             <h2 className="text-4xl font-medium">Innovation Poster Format</h2>
             <div className="mt-7">
               <p>Each poster must follow the following specifications:</p>
@@ -110,7 +118,7 @@ const Guidelines = () => {
           </div>
 
           {/* Pitching Session Guidelines */}
-          <div ref={pitchingSessionGuidelines} className="mt-14">
+          <div ref={pitchingSessionGuidelines} className="pt-24">
             <h2 className="text-4xl font-medium">
               Pitching Session Guidelines
             </h2>
@@ -162,7 +170,7 @@ const Guidelines = () => {
           </div>
         </div>
 
-        <aside className="md:sticky md:top-28 order-first md:order-last col-span-12 md:col-span-3 mt-14">
+        <aside className="md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14">
           <p className="text-left text-xs font-semibold text-[#4d4256] mb-2 px-6">
             On this page
           </p>

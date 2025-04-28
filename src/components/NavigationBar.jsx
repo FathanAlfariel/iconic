@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const NavigationBar = () => {
   return (
-    <div className="bg-white p-2 md:p-3">
+    <div className="bg-white">
       <ul className="flex w-full rounded-full bg-gray-50 overflow-y-auto shadow-md">
         <li className="w-full">
           <NavLink

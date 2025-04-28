@@ -39,11 +39,6 @@ const Layout = () => {
           </div>
         </div>
 
-        {/* Navigation Bar - Hanya terlihat saat Head Content tidak terlihat */}
-        <div className={`sticky top-0 left-0 max-w-7xl mx-auto z-50`}>
-          <NavigationBar />
-        </div>
-
         {/* Main Content */}
         <Outlet />
       </main>
