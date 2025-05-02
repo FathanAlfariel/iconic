@@ -2,7 +2,7 @@ const Accordion = ({ title, content, isOpen, onToggle }) => {
   return (
     <div className="border-b border-gray-200">
       <button
-        className="w-full flex justify-between items-center p-4 text-left rounded-xl hover:bg-gray-100 bg-white transition-colors duration-300"
+        className="cursor-pointer w-full flex justify-between items-center p-4 text-left rounded-xl hover:bg-gray-100 bg-white transition-colors duration-300"
         onClick={onToggle}
       >
         <span className="text-base font-medium text-gray-800">{title}</span>
