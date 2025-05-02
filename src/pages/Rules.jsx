@@ -115,12 +115,48 @@ const Rules = () => {
             {/* Judging Criteria */}
             <li ref={judgingCriteriaRef} className="pt-24">
               <h5 className="text-2xl font-medium">Judging Criteria:</h5>
-              <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-3">
-                <li className="ml-8">Innovation</li>
-                <li className="ml-8">Sustainability</li>
-                <li className="ml-8">Industrial Impact</li>
-                <li className="ml-8">Technical Implementation</li>
-              </ul>
+              <table className="mt-3">
+                <thead>
+                  <tr className="border-b border-[#E4E4E7]">
+                    <th className="border-r border-[#E4E4E7] py-3 text-base font-medium">
+                      Aspect
+                    </th>
+                    <th className="py-3 px-8 text-base font-medium">Weight</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-[#E4E4E7]">
+                    <td className="text-base py-1.5 pr-8 border-r border-[#E4E4E7]">
+                      Innovation and Originality
+                    </td>
+                    <td className="text-base py-1.5 px-8 text-center">25%</td>
+                  </tr>
+                  <tr className="border-b border-[#E4E4E7]">
+                    <td className="text-base py-1.5 border-r border-[#E4E4E7]">
+                      Technical Feasibility
+                    </td>
+                    <td className="text-base py-1.5 px-8 text-center">25%</td>
+                  </tr>
+                  <tr className="border-b border-[#E4E4E7]">
+                    <td className="text-base py-1.5 pr-8 border-r border-[#E4E4E7]">
+                      Social / Environmental Impact
+                    </td>
+                    <td className="text-base py-1.5 px-8 text-center">20%</td>
+                  </tr>
+                  <tr className="border-b border-[#E4E4E7]">
+                    <td className="text-base py-1.5 pr-8 border-r border-[#E4E4E7]">
+                      Presentation and Communication
+                    </td>
+                    <td className="text-base py-1.5 px-8 text-center">15%</td>
+                  </tr>
+                  <tr className="border-b border-[#E4E4E7]">
+                    <td className="text-base py-1.5 pr-8 border-r border-[#E4E4E7]">
+                      Product Design and Aesthetics
+                    </td>
+                    <td className="text-base py-1.5 px-8 text-center">15%</td>
+                  </tr>
+                </tbody>
+              </table>
             </li>
 
             {/* Category Selection */}
