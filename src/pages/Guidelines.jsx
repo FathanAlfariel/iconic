@@ -3,14 +3,9 @@ import NavigationBar from "../components/NavigationBar";
 
 const Guidelines = () => {
   // Ref untuk setiap section
-  const abstractFormat = useRef(null);
   const innovationPosterFormat = useRef(null);
   const pitchingSessionGuidelines = useRef(null);
 
-  // Fungsi scroll untuk setiap section
-  const scrollToAbstractFormat = () => {
-    abstractFormat?.current?.scrollIntoView({ behavior: "smooth" });
-  };
   const scrollToInnovationPosterFormat = () => {
     innovationPosterFormat?.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -29,54 +24,6 @@ const Guidelines = () => {
             className={`sticky top-0 left-0 max-w-7xl mx-auto z-50 py-2 mt-12 bg-white`}
           >
             <NavigationBar />
-          </div>
-
-          {/* Abstract Format */}
-          <div ref={abstractFormat} className="pt-24">
-            <h2 className="text-4xl font-medium">Abstract Format</h2>
-            <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-7">
-              <li className="ml-8">
-                Please use the template provided and submit in .docx format as
-                per the attachment.
-              </li>
-              <li className="ml-8">
-                The abstract can be written in either English or Indonesia.
-              </li>
-              <li className="ml-8">
-                Innovation Title:
-                <ol type="a" className="ml-8 list-outside list-[lower-alpha]">
-                  <li>Upper Case, Bold, Font 12 and Times New Roman.</li>
-                </ol>
-              </li>
-              <li className="ml-8">
-                Author(s) Name and Institution(s)
-                <ol type="a" className="ml-8 list-outside list-[lower-alpha]">
-                  <li>Capitalize Each Word, Font 12 and Times New Roman.</li>
-                </ol>
-              </li>
-              <li className="ml-8">
-                Number of Words
-                <ol type="a" className="ml-8 list-outside list-[lower-alpha]">
-                  <li>The Number of Words Is 150 – 250.</li>
-                  <li>Font Size: 12.</li>
-                  <li>Font Type: New Roman Times.</li>
-                </ol>
-              </li>
-              <li className="ml-8">
-                The abstract should contain the following elements:
-                <ol type="a" className="ml-8 list-outside list-[lower-alpha]">
-                  <li>Background.</li>
-                  <li>Problem Statement.</li>
-                  <li>Objectives.</li>
-                  <li>
-                    Invention Description/Innovation Product/Innovation Ideas.
-                  </li>
-                  <li>Gain / Benefit / Impact.</li>
-                  <li>Conclusion.</li>
-                  <li>Keywords.</li>
-                </ol>
-              </li>
-            </ul>
           </div>
 
           {/* Innovation Poster Format */}
@@ -170,21 +117,13 @@ const Guidelines = () => {
           </div>
         </div>
 
-        <aside className="md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14 max-h-screen overflow-y-auto">
+        <aside className="md:pb-8 md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14 max-h-screen overflow-y-auto">
           <p className="text-left text-xs font-semibold text-[#4d4256] mb-2 px-6">
             On this page
           </p>
 
           {/* List page */}
           <ul className="px-2">
-            <li>
-              <button
-                onClick={scrollToAbstractFormat}
-                className="w-full py-2 px-4 text-left text-[#21182b] text-sm font-normal transition duration-200 hover:bg-gray-200 rounded-full cursor-pointer"
-              >
-                Abstract Format
-              </button>
-            </li>
             <li>
               <button
                 onClick={scrollToInnovationPosterFormat}
@@ -211,17 +150,38 @@ const Guidelines = () => {
               Submission Platform
             </span>
             <br />
-            <span className="block text-[#1c1b1d] mt-1.5">
-              All registration and document collection is done through{" "}
-              <a
-                target="_blank"
-                href="https://bit.um.ac.id/ICONIC2025-FT60"
-                className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
-              >
-                Google Drive
-              </a>{" "}
-              platform
-            </span>
+
+            <ul className="flex flex-col mt-1.5">
+              <li className="mb-2">
+                <p className="font-bold mb-0.5">Lecturer work submission:</p>
+                All registration and submission of lecturers' works are
+                conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://forms.gle/M5j51CVqK1LZX6vu5"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Drive
+                </a>{" "}
+                platform.
+              </li>
+              <li className="block border-t border-gray-300 w-full"></li>
+              <li className="mt-2">
+                <p className="font-bold mb-0.5">
+                  General participant submission:
+                </p>
+                All registration and submission of participants' works are
+                conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://bit.um.ac.id/ICONIC2025-FT60"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Drive
+                </a>{" "}
+                platform.
+              </li>
+            </ul>
           </div>
 
           {/* Contact & More Information */}

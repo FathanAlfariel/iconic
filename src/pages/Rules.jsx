@@ -106,10 +106,6 @@ const Rules = () => {
                   and a Payment Slip as proof of registration.
                 </li>
                 <li className="ml-8">
-                  The abstract must be written in English and clearly explain
-                  the project’s objectives, methodology, and impact.
-                </li>
-                <li className="ml-8">
                   The poster must be in English and visually represent the
                   innovation effectively.
                 </li>
@@ -158,10 +154,6 @@ const Rules = () => {
               <h5 className="text-2xl font-medium">Language to be used:</h5>
               <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-3">
                 <li className="ml-8">
-                  For ABSTRACT, the usage of English and Bahasa Indonesia are
-                  allowed.
-                </li>
-                <li className="ml-8">
                   For POSTER, participants MUST use English.
                 </li>
                 <li className="ml-8">
@@ -187,7 +179,7 @@ const Rules = () => {
           </ul>
         </div>
 
-        <aside className="md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14 max-h-screen overflow-y-auto">
+        <aside className="md:pb-8 md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14 max-h-screen overflow-y-auto">
           <p className="text-left text-xs font-semibold text-[#4d4256] mb-2 px-6">
             On this page
           </p>
@@ -268,17 +260,38 @@ const Rules = () => {
               Submission Platform
             </span>
             <br />
-            <span className="block text-[#1c1b1d] mt-1.5">
-              All registration and document collection is done through{" "}
-              <a
-                target="_blank"
-                href="https://bit.um.ac.id/ICONIC2025-FT60"
-                className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
-              >
-                Google Drive
-              </a>{" "}
-              platform
-            </span>
+
+            <ul className="flex flex-col mt-1.5">
+              <li className="mb-2">
+                <p className="font-bold mb-0.5">Lecturer work submission:</p>
+                All registration and submission of lecturers' works are
+                conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://forms.gle/M5j51CVqK1LZX6vu5"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Drive
+                </a>{" "}
+                platform.
+              </li>
+              <li className="block border-t border-gray-300 w-full"></li>
+              <li className="mt-2">
+                <p className="font-bold mb-0.5">
+                  General participant submission:
+                </p>
+                All registration and submission of participants' works are
+                conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://bit.um.ac.id/ICONIC2025-FT60"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Drive
+                </a>{" "}
+                platform.
+              </li>
+            </ul>
           </div>
 
           {/* Contact & More Information */}
