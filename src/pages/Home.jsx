@@ -325,31 +325,27 @@ const Home = () => {
               <li>
                 <div className="grid grid-cols-12">
                   <div className="col-span-4">1st place</div>
-                  <div className="col-span-8">: Certificate</div>
+                  <div className="col-span-8">: Trophy + Certificate</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
                   <div className="col-span-4">2nd place</div>
-                  <div className="col-span-8">: Certificate</div>
+                  <div className="col-span-8">: Trophy + Certificate</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
                   <div className="col-span-4">3rd place</div>
-                  <div className="col-span-8">: Certificate</div>
+                  <div className="col-span-8">: Trophy + Certificate</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-4">Best Innovation Award</div>
-                  <div className="col-span-8">: Certificate</div>
-                </div>
-              </li>
-              <li>
-                <div className="grid grid-cols-12">
-                  <div className="col-span-4">Best Presentation Award</div>
-                  <div className="col-span-8">: Certificate</div>
+                  <div className="col-span-4">
+                    Consolation & People's Choice
+                  </div>
+                  <div className="col-span-8">: Certificate + Plaque</div>
                 </div>
               </li>
             </ul>
