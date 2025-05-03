@@ -247,18 +247,16 @@ const Home = () => {
             <ul className="list-disc mt-4 text-base ml-4">
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">
-                    Deadline for Registration & Proposal Submission
+                  <div className="col-span-5">Registration</div>
+                  <div className="col-span-7">
+                    : June 1 &ndash; July 31, 2025 (Summary+Poster)
                   </div>
-                  <div className="col-span-7">: May 30, 2025</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">
-                    Final Project Submission Deadline
-                  </div>
-                  <div className="col-span-7">: June 30, 2025</div>
+                  <div className="col-span-5">Proposal Selection</div>
+                  <div className="col-span-7">: August 1, 2025</div>
                 </div>
               </li>
               <li>
@@ -269,13 +267,13 @@ const Home = () => {
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Presentation & Judging</div>
-                  <div className="col-span-7">: September 9, 2025</div>
+                  <div className="col-span-5">Presentations & Exhibitions</div>
+                  <div className="col-span-7">: September 8, 2025</div>
                 </div>
               </li>
               <li>
                 <div className="grid grid-cols-12">
-                  <div className="col-span-5">Winner Announcement</div>
+                  <div className="col-span-5">Awarding</div>
                   <div className="col-span-7 text-red-600 font-medium">
                     : September 12, 2025
                   </div>
