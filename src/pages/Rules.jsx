@@ -91,8 +91,7 @@ const Rules = () => {
                   last two years.
                 </li>
                 <li className="ml-8">
-                  Participants must submit an initial proposal, project report,
-                  and product proposal.
+                  Participants must submit a summary and a poster.
                 </li>
               </ul>
             </li>
@@ -102,8 +101,8 @@ const Rules = () => {
               <h5 className="text-2xl font-medium">Submission Requirements:</h5>
               <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-3">
                 <li className="ml-8">
-                  Entries must include a completed entry form, Abstract, Poster
-                  and a Payment Slip as proof of registration.
+                  Entries must include a completed entry form, Abstract, and
+                  Poster as proof of registration.
                 </li>
                 <li className="ml-8">
                   The poster must be in English and visually represent the
