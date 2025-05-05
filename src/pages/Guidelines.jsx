@@ -39,20 +39,95 @@ const Guidelines = () => {
                   The poster must be of A3 size and in the PDF format.
                 </li>
                 <li className="ml-8">
-                  The Innovation Poster must include the following mandatory
-                  sections:
-                  <ol type="a" className="ml-8 list-outside list-[lower-alpha]">
-                    <li>Title of Innovation Product/ Project.</li>
-                    <li>Group Members/Affiliations.</li>
-                    <li>Introduction/Problem Statement.</li>
-                    <li>Objective.</li>
-                    <li>Innovation Product/ Project Impact.</li>
-                    <li>Uses and Applications.</li>
-                    <li>Novelty and Inventiveness.</li>
-                    <li>Implementation Level .</li>
+                  The following sections outline the core focus areas typically
+                  found in a Capstone Design Project poster, using the uploaded
+                  example as a reference:
+                  <ol type="a" className="ml-8 list-outside list-decimal">
                     <li>
-                      Commercial Potential/ Commercialisation/ Publishing
-                      Status.
+                      Problem Statement
+                      <br />
+                      This section clearly defines the{" "}
+                      <span className="font-bold">
+                        engineering problem or challenge
+                      </span>{" "}
+                      the team aimed to solve. Focus: Real-world relevance,
+                      background context, and the need for the proposed
+                      solution. Example Phrases:
+                      <ul className="list-disc list-inside mt-0.5 ml-4">
+                        <li>“This project addresses the issue of…”</li>
+                        <li>“Current systems lack the ability to…”</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Design Constraints
+                      <br />A summary of the{" "}
+                      <span className="font-bold">
+                        limitations and requirements
+                      </span>
+                      that shaped the design process. Focus: Physical,
+                      financial, environmental, regulatory, or
+                      performance-related constraints. Typical Considerations:
+                      <ul className="list-disc list-inside mt-0.5 ml-4">
+                        <li>Cost and manufacturability</li>
+                        <li>Material availability</li>
+                        <li>Dimensional or weight limits</li>
+                        <li>Safety regulations</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Design Development / Solution Approach
+                      <br />
+                      Explanation of how the team{" "}
+                      <span className="font-bold">designed or built</span> the
+                      proposed solution. Focus: Concept selection, prototyping,
+                      and rationale behind design choices. Can include:
+                      <ul className="list-disc list-inside mt-0.5 ml-4">
+                        <li>CAD drawings or sketches</li>
+                        <li>Prototyping process</li>
+                        <li>Material selection and components used</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Theory and Functionality / Technical Validation
+                      <br />
+                      This section demonstrates how the design{" "}
+                      <span className="font-bold">works and performs</span>,
+                      often supported by simulations or testing.
+                      <br />
+                      Focus: Engineering principles, technical analysis, and
+                      evidence of functionality. Visuals:
+                      <ul className="list-disc list-inside mt-0.5 ml-4">
+                        <li>Finite Element Analysis (FEA)</li>
+                        <li>Stress/strain simulations</li>
+                        <li>Test data graphs or efficiency charts</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Future Considerations / Improvements
+                      <br />
+                      Exploration of how the project could be{" "}
+                      <span className="font-bold">improved or scaled</span> in
+                      future iterations. Focus: Optimization opportunities,
+                      further testing, commercial viability, or broader
+                      applications.
+                      <br />
+                      Example Ideas:
+                      <ul className="list-disc list-inside mt-0.5 ml-4">
+                        <li>“Integration with other systems…”</li>
+                        <li>“Using composite materials to reduce weight…”</li>
+                      </ul>
+                    </li>
+                    <li>
+                      Visual & Branding Elements
+                      <br />
+                      <ul className="list-disc list-inside mt-0.5 ml-4">
+                        <li>Clean, professional layout with clear sections</li>
+                        <li>
+                          Institutional logos (e.g., university or department)
+                        </li>
+                        <li>Team members' names and advisor acknowledgment</li>
+                        <li>Consistent color palette and font use</li>
+                      </ul>
                     </li>
                   </ol>
                 </li>
