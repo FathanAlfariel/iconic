@@ -154,7 +154,11 @@ const Guidelines = () => {
                   Build a synchronized virtual presentation through Microsoft
                   Teams.
                 </li>
-                <li className="ml-8">Groups must always be prepared online.</li>
+                <li className="ml-8">
+                  Groups must always be prepared online (International
+                  participants are allowed to join the final presentation fully
+                  online).
+                </li>
                 <li className="ml-8">
                   The duration of the presentation for each group is 15 minutes
                   and for the question-and-answer session is 10 minutes.
