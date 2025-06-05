@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import NavigationBar from "../components/NavigationBar";
+import ExamplePosterImg from "../components/ExamplePosterImg";
 
 const Guidelines = () => {
   // Ref untuk setiap section
@@ -29,113 +30,124 @@ const Guidelines = () => {
           {/* Innovation Poster Format */}
           <div ref={innovationPosterFormat} className="pt-24">
             <h2 className="text-4xl font-medium">Innovation Poster Format</h2>
-            <div className="mt-7">
-              <p>Each poster must follow the following specifications:</p>
-              <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-0.5">
-                <li className="ml-8">
-                  Each participation MUST submit ONE (1) poster.
-                </li>
-                <li className="ml-8">
-                  The poster must be of A3 size and in the PDF format.
-                </li>
-                <li className="ml-8">
-                  The following sections outline the core focus areas typically
-                  found in a Capstone Design Project poster, using the uploaded
-                  example as a reference:
-                  <ol type="a" className="ml-8 list-outside list-decimal">
-                    <li>
-                      Problem Statement
-                      <br />
-                      This section clearly defines the{" "}
-                      <span className="font-bold">
-                        engineering problem or challenge
-                      </span>{" "}
-                      the team aimed to solve. Focus: Real-world relevance,
-                      background context, and the need for the proposed
-                      solution. Example Phrases:
-                      <ul className="list-disc list-inside mt-0.5 ml-4">
-                        <li>“This project addresses the issue of…”</li>
-                        <li>“Current systems lack the ability to…”</li>
-                      </ul>
-                    </li>
-                    <li>
-                      Design Constraints
-                      <br />A summary of the{" "}
-                      <span className="font-bold">
-                        limitations and requirements
-                      </span>
-                      that shaped the design process. Focus: Physical,
-                      financial, environmental, regulatory, or
-                      performance-related constraints. Typical Considerations:
-                      <ul className="list-disc list-inside mt-0.5 ml-4">
-                        <li>Cost and manufacturability</li>
-                        <li>Material availability</li>
-                        <li>Dimensional or weight limits</li>
-                        <li>Safety regulations</li>
-                      </ul>
-                    </li>
-                    <li>
-                      Design Development / Solution Approach
-                      <br />
-                      Explanation of how the team{" "}
-                      <span className="font-bold">designed or built</span> the
-                      proposed solution. Focus: Concept selection, prototyping,
-                      and rationale behind design choices. Can include:
-                      <ul className="list-disc list-inside mt-0.5 ml-4">
-                        <li>CAD drawings or sketches</li>
-                        <li>Prototyping process</li>
-                        <li>Material selection and components used</li>
-                      </ul>
-                    </li>
-                    <li>
-                      Theory and Functionality / Technical Validation
-                      <br />
-                      This section demonstrates how the design{" "}
-                      <span className="font-bold">works and performs</span>,
-                      often supported by simulations or testing.
-                      <br />
-                      Focus: Engineering principles, technical analysis, and
-                      evidence of functionality. Visuals:
-                      <ul className="list-disc list-inside mt-0.5 ml-4">
-                        <li>Finite Element Analysis (FEA)</li>
-                        <li>Stress/strain simulations</li>
-                        <li>Test data graphs or efficiency charts</li>
-                      </ul>
-                    </li>
-                    <li>
-                      Future Considerations / Improvements
-                      <br />
-                      Exploration of how the project could be{" "}
-                      <span className="font-bold">improved or scaled</span> in
-                      future iterations. Focus: Optimization opportunities,
-                      further testing, commercial viability, or broader
-                      applications.
-                      <br />
-                      Example Ideas:
-                      <ul className="list-disc list-inside mt-0.5 ml-4">
-                        <li>“Integration with other systems…”</li>
-                        <li>“Using composite materials to reduce weight…”</li>
-                      </ul>
-                    </li>
-                    <li>
-                      Visual & Branding Elements
-                      <br />
-                      <ul className="list-disc list-inside mt-0.5 ml-4">
-                        <li>Clean, professional layout with clear sections</li>
-                        <li>
-                          Institutional logos (e.g., university or department)
-                        </li>
-                        <li>Team members' names and advisor acknowledgment</li>
-                        <li>Consistent color palette and font use</li>
-                      </ul>
-                    </li>
-                  </ol>
-                </li>
-                <li className="ml-8">
-                  The background design of the poster is based on the template
-                  given.
-                </li>
-              </ul>
+            <div className="flex flex-col lg:flex-row items-stretch lg:gap-x-12 mt-7">
+              <div className="w-full">
+                <p>Each poster must follow the following specifications:</p>
+                <ul className="list-outside list-disc flex flex-col gap-y-0.5 mt-0.5">
+                  <li className="ml-8">
+                    Each participation MUST submit ONE (1) poster.
+                  </li>
+                  <li className="ml-8">
+                    The poster must be of A3 size and in the PDF format.
+                  </li>
+                  <li className="ml-8">
+                    The following sections outline the core focus areas
+                    typically found in a Capstone Design Project poster, using
+                    the uploaded example as a reference:
+                    <ol type="a" className="ml-8 list-outside list-decimal">
+                      <li>
+                        Problem Statement
+                        <br />
+                        This section clearly defines the{" "}
+                        <span className="font-bold">
+                          engineering problem or challenge
+                        </span>{" "}
+                        the team aimed to solve. Focus: Real-world relevance,
+                        background context, and the need for the proposed
+                        solution. Example Phrases:
+                        <ul className="list-disc list-inside mt-0.5 ml-4">
+                          <li>“This project addresses the issue of…”</li>
+                          <li>“Current systems lack the ability to…”</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Design Constraints
+                        <br />A summary of the{" "}
+                        <span className="font-bold">
+                          limitations and requirements
+                        </span>
+                        that shaped the design process. Focus: Physical,
+                        financial, environmental, regulatory, or
+                        performance-related constraints. Typical Considerations:
+                        <ul className="list-disc list-inside mt-0.5 ml-4">
+                          <li>Cost and manufacturability</li>
+                          <li>Material availability</li>
+                          <li>Dimensional or weight limits</li>
+                          <li>Safety regulations</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Design Development / Solution Approach
+                        <br />
+                        Explanation of how the team{" "}
+                        <span className="font-bold">designed or built</span> the
+                        proposed solution. Focus: Concept selection,
+                        prototyping, and rationale behind design choices. Can
+                        include:
+                        <ul className="list-disc list-inside mt-0.5 ml-4">
+                          <li>CAD drawings or sketches</li>
+                          <li>Prototyping process</li>
+                          <li>Material selection and components used</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Theory and Functionality / Technical Validation
+                        <br />
+                        This section demonstrates how the design{" "}
+                        <span className="font-bold">works and performs</span>,
+                        often supported by simulations or testing.
+                        <br />
+                        Focus: Engineering principles, technical analysis, and
+                        evidence of functionality. Visuals:
+                        <ul className="list-disc list-inside mt-0.5 ml-4">
+                          <li>Finite Element Analysis (FEA)</li>
+                          <li>Stress/strain simulations</li>
+                          <li>Test data graphs or efficiency charts</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Future Considerations / Improvements
+                        <br />
+                        Exploration of how the project could be{" "}
+                        <span className="font-bold">improved or scaled</span> in
+                        future iterations. Focus: Optimization opportunities,
+                        further testing, commercial viability, or broader
+                        applications.
+                        <br />
+                        Example Ideas:
+                        <ul className="list-disc list-inside mt-0.5 ml-4">
+                          <li>“Integration with other systems…”</li>
+                          <li>“Using composite materials to reduce weight…”</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Visual & Branding Elements
+                        <br />
+                        <ul className="list-disc list-inside mt-0.5 ml-4">
+                          <li>
+                            Clean, professional layout with clear sections
+                          </li>
+                          <li>
+                            Institutional logos (e.g., university or department)
+                          </li>
+                          <li>
+                            Team members' names and advisor acknowledgment
+                          </li>
+                          <li>Consistent color palette and font use</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </li>
+                  <li className="ml-8">
+                    The background design of the poster is based on the template
+                    given.
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mt-4 lg:mt-0">
+                <ExamplePosterImg />
+              </div>
             </div>
           </div>
 
@@ -197,7 +209,7 @@ const Guidelines = () => {
         </div>
 
         <aside className="md:pb-8 md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14 max-h-screen overflow-y-auto">
-          <p className="text-left text-xs font-semibold text-[#4d4256] mb-2 px-6">
+          <p className="text-left text-xs font-semibold text-[#4d4272] mb-2 px-6 mt-4">
             On this page
           </p>
 
@@ -257,6 +269,48 @@ const Guidelines = () => {
                   className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
                 >
                   Google Drive
+                </a>{" "}
+                platform.
+              </li>
+            </ul>
+          </div>
+
+          {/* Collection of lecturer and student works */}
+          <div className="text-left text-xs mx-2 py-3 px-4 transition duration-200 hover:bg-gray-200 rounded-xl">
+            <span className="font-semibold text-[#4d4256]">
+              Collection of lecturer and student works
+            </span>
+            <br />
+
+            <ul className="flex flex-col mt-1.5">
+              <li className="mb-2">
+                <p className="font-bold mb-0.5">
+                  Link to Collection of Internal Lecturer and Student Works:
+                </p>
+                All registration and submission of internal lecturers' and
+                students' works are conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeQImX3PxwBTeLTK0gJqDixrbGBgiZA2UNaffG8bbRSaABdRA/viewform?usp=header"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Form
+                </a>{" "}
+                platform.
+              </li>
+              <li className="block border-t border-gray-300 w-full"></li>
+              <li className="mt-2">
+                <p className="font-bold mb-0.5">
+                  External Lecturer Work Collection Link:
+                </p>
+                All registration and submission of external lecturers' works are
+                conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfgvle4c1-1Nm-HJRr6nL3s8dVnSn44-dppWNrv-niJiGZOsQ/viewform?usp=dialog"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Form
                 </a>{" "}
                 platform.
               </li>

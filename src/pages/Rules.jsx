@@ -329,6 +329,48 @@ const Rules = () => {
             </ul>
           </div>
 
+          {/* Collection of lecturer and student works */}
+          <div className="text-left text-xs mx-2 py-3 px-4 transition duration-200 hover:bg-gray-200 rounded-xl">
+            <span className="font-semibold text-[#4d4256]">
+              Collection of lecturer and student works
+            </span>
+            <br />
+
+            <ul className="flex flex-col mt-1.5">
+              <li className="mb-2">
+                <p className="font-bold mb-0.5">
+                  Link to Collection of Internal Lecturer and Student Works:
+                </p>
+                All registration and submission of internal lecturers' and
+                students' works are conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSeQImX3PxwBTeLTK0gJqDixrbGBgiZA2UNaffG8bbRSaABdRA/viewform?usp=header"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Form
+                </a>{" "}
+                platform.
+              </li>
+              <li className="block border-t border-gray-300 w-full"></li>
+              <li className="mt-2">
+                <p className="font-bold mb-0.5">
+                  External Lecturer Work Collection Link:
+                </p>
+                All registration and submission of external lecturers' works are
+                conducted through the{" "}
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfgvle4c1-1Nm-HJRr6nL3s8dVnSn44-dppWNrv-niJiGZOsQ/viewform?usp=dialog"
+                  className="font-medium text-blue-600 hover:text-blue-800 hover:underline"
+                >
+                  Google Form
+                </a>{" "}
+                platform.
+              </li>
+            </ul>
+          </div>
+
           {/* Contact & More Information */}
           <div className="mx-2 py-3 px-4 transition duration-200 hover:bg-gray-200 rounded-xl">
             <p className="text-left text-xs font-semibold text-[#4d4256]">
