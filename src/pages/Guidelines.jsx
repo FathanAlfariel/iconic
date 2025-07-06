@@ -209,7 +209,7 @@ const Guidelines = () => {
         </div>
 
         <aside className="md:pb-8 md:sticky md:top-8 order-first md:order-last col-span-12 md:col-span-3 mt-14 max-h-screen overflow-y-auto">
-          <p className="text-left text-xs font-semibold text-[#4d4272] mb-2 px-6 mt-4">
+          <p className="text-left text-xs font-semibold text-[#4d4272] mb-2 px-6">
             On this page
           </p>
 
