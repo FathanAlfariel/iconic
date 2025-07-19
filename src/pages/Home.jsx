@@ -249,7 +249,7 @@ const Home = () => {
                 <div className="grid grid-cols-12">
                   <div className="col-span-5">Registration</div>
                   <div className="col-span-7">
-                    : June 1 &ndash; July 31, 2025 (Summary+Poster)
+                    : June 1 &ndash; August 14, 2025 (Summary+Poster)
                   </div>
                 </div>
               </li>
