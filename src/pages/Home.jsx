@@ -262,7 +262,7 @@ const Home = () => {
               <li>
                 <div className="grid grid-cols-12">
                   <div className="col-span-5">Finalist Announcement</div>
-                  <div className="col-span-7">: August 17, 2025</div>
+                  <div className="col-span-7">: August 22, 2025</div>
                 </div>
               </li>
               <li>
